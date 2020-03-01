@@ -1,6 +1,6 @@
 # Rainbow Contact Center FAQ
 
-Updated: 13 Feb 2020
+Updated: 1 Mar 2020
 
  I have consolidated questions from all groups into a FAQ here. This document will be updated as and when there are new content.
 
