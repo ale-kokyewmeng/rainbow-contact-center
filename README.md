@@ -14,6 +14,7 @@ Updated: 13 Feb 2020
 * [Is there a minimum requirement on the Web UI? (How it looks etc)](#ui)
 * [What are some use cases that you want us to have?](#usecase)
 * [Is there any existing routing engine used by Rainbow?](#engine)
+* [Can we use other 3rd party APIs?](#3rdparty)
 * [Who assign the skill tags to the agents? Are agents allowed to edit their own skill tags?](#tags)
 * [Are we required to set up User-Authentication? If not, is there a specification on the type Database?](#auth)
 * [Are there APIs for us to implement queues when a user makes a request but all agents are occupied?](#queue)
@@ -42,7 +43,7 @@ Contact center agents need a routing engine to organise incoming chat requests a
 ## <a id="signup"></a> How to sign up as Rainbow Developer
 Please see step-by-step instructions [here](dev-signup-instructions-global.pdf).
 
-## <a id="devcoy"></a>. When registrating a Rainbow developer account, what should we put for the company name?
+## <a id="devcoy"></a> When registrating a Rainbow developer account, what should we put for the company name?
 If possible, please prefix your company name with "SUTD20-" e.g. "SUTD20-mycompany"
 
 ## <a id="custtype"></a> In general, what type of customers use the Rainbow platform?
@@ -87,6 +88,9 @@ No.
 * Rainbow currently allow one-to-one chat/audio calls and group chat/audio calls.
 * In Rainbow, groups are called bubbles (please see Rainbow documentation)
 * You can dynamically create bubbles and add particpants to the bubble via the API
+
+## <a id="3rdparty"></a> Can we use other 3rd party APIs?
+Please check with me first if you intend to use other 3rd party API.
 
 ## <a id="tags"></a> Who assign the skill tags to the agents? Are agents allowed to edit their own skill tags?
 Normally, skill tags of each agent are set by the contact center manager/supervisor. It is good to have a simple admin panel to assign skill tags to agents, but this is not compulsory. You may hardcode the skill tags of the agents too.
